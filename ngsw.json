@@ -1,0 +1,103 @@
+{
+  "configVersion": 1,
+  "timestamp": 1699777146653,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.e33908898ca3962a.js",
+        "/manifest.webmanifest",
+        "/polyfills.e26111d8cb175e34.js",
+        "/runtime.458052addb514b0e.js",
+        "/scripts.d47fdc26107e01f2.js",
+        "/styles.ce544dcb935727d7.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-256x256.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/images/avatar.png",
+        "/assets/images/banner.png",
+        "/assets/images/bg.jpg",
+        "/assets/images/fbv2.jpg",
+        "/assets/images/i-search.svg",
+        "/assets/images/logo.png",
+        "/assets/images/mail.png",
+        "/assets/images/mail1.png",
+        "/assets/images/meta.png",
+        "/assets/images/metav2.png",
+        "/assets/images/metav2.svg",
+        "/assets/images/mtic.svg",
+        "/assets/images/ref.png",
+        "/assets/images/steps.png",
+        "/assets/images/verify.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/icons/icon-144x144.png": "3269e86f1bc6f1f0d8837a116ce4ec704396970d",
+    "/assets/icons/icon-256x256.png": "87e2d44eec6aa562e5f95f631e070de21a7b8c6a",
+    "/assets/icons/icon-512x512.png": "7841c240273db4020ea8f2df8cfeb965c8e2f1c1",
+    "/assets/images/avatar.png": "b8bfe3b59f0dc0d7841d17f4352ac2ce0feb2238",
+    "/assets/images/banner.png": "9d71c7e6adfbb5160f11648cf4cd1857b54a1e2d",
+    "/assets/images/bg.jpg": "54492aa337fc8ee34297a04fd789d202fba78d58",
+    "/assets/images/fbv2.jpg": "e3d73bf45f360750678f666b4fa51553aad7090d",
+    "/assets/images/i-search.svg": "b9821abf219ac11de7ce32cb52372ae263f730d4",
+    "/assets/images/logo.png": "3198f8a002c4d4aefece1619c8d221f138b7a564",
+    "/assets/images/mail.png": "a1e92e4a721fb8d7d00b3f8b96e96b17d2219fa5",
+    "/assets/images/mail1.png": "04f58768630dbec54244fb92f763f498a5847300",
+    "/assets/images/meta.png": "3114649d07339ebf5c820d7466add95798baaee6",
+    "/assets/images/metav2.png": "c0334262e1a6720efb47fa3334e8dd6437377836",
+    "/assets/images/metav2.svg": "4b3df4457435d62846f471d1f5be3e873b01e82f",
+    "/assets/images/mtic.svg": "ec1317b1669904794cdea96ef752c79521107ce4",
+    "/assets/images/ref.png": "c1e0405da01e41a82ed3e55cb931a7b07e503380",
+    "/assets/images/steps.png": "6172693ce020c0c8946ce14da8e688ed48c81fe3",
+    "/assets/images/verify.png": "ea4a4be7fc93c1be05eaf542053212cef7f02658",
+    "/favicon.ico": "111f776ec0200627ac99f088af0edd163c435914",
+    "/index.html": "1d48b9baca82e5beed2e13a03e3cf9f0cc8bfd7b",
+    "/main.e33908898ca3962a.js": "b21885d6f3a373baaae38b7434e68183ac989bfc",
+    "/manifest.webmanifest": "1785f62e7cbecf75d97ec4145fa7e393a25ac1b3",
+    "/polyfills.e26111d8cb175e34.js": "fc77fbd21326f08e09c87cd170b703945bfef127",
+    "/runtime.458052addb514b0e.js": "0757ecb4c893f2468c799286853bd1b1d3feeee1",
+    "/scripts.d47fdc26107e01f2.js": "f55fbf853c72b42b42ea33afbeea0ce238f2d6e2",
+    "/styles.ce544dcb935727d7.css": "d6cace654abd5b35d60a2100b29ad101027bf368"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
